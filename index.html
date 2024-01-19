@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Button Remapper</title>
+    <link
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="sidebar">
+      <div>
+        <button
+        type="button"
+        class="btn btn-primary btn-sm"
+        >
+          Add Device
+
+        </button>
+      </div>
+      <div>
+        <div>
+          <button
+          type="button"
+          class="btn btn-primary btn-sm"
+          >
+            Device 1
+          </button>
+        </div>
+        <div>
+          <button
+          type="button"
+          class="btn btn-primary btn-sm"
+          >
+            Device 2
+          </button>
+        </div>
+      </div>
+    </div>
+    <div id="content">
+      <h1>Logitech MX Master 2S</h1>
+      <div class="image-container">
+        <img src="mouse2.png" id="mouseImage" usemap="#mouseMap" />
+        <button
+          id="leftClickBtn"
+          type="button"
+          class="btn btn-primary btn-sm"
+          onclick="remapButton(1)"
+        >
+          Mouse 1
+        </button>
+        <button
+          id="rightClickBtn"
+          type="button"
+          class="btn btn-primary btn-sm"
+          onclick="remapButton(1)"
+        >
+          Mouse 2
+        </button>
+        <button
+          id="MiddleClickBtn"
+          type="button"
+          class="btn btn-primary btn-sm"
+          onclick="remapButton(1)"
+        >
+          Mouse 3
+        </button>
+        <button
+          id="forwardBtn"
+          type="button"
+          class="btn btn-primary btn-sm"
+          onclick="remapButton(1)"
+        >
+          Forward
+        </button>
+        <button
+          id="backBtn"
+          type="button"
+          class="btn btn-primary btn-sm"
+          onclick="remapButton(1)"
+        >
+          Back
+        </button>
+      </div>
+      <script src="renderer.js"></script>
+    </div>
+  </body>
+</html>
