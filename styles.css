@@ -20,6 +20,31 @@ body {
     padding: 20px;
 }
 
+.add-device-btn {
+    width: 146px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #807f7f;
+    border-color: #807f7f;
+}
+
+.device-btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #807f7f;
+    border-color: #807f7f;
+}
+
+.device-btn img {
+    width: 120px;
+    border: 2px;
+    border-radius: 4px;
+}
+
 .image-container {
     position: relative;
     display: inline-block;
